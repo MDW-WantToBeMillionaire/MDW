@@ -1,0 +1,19 @@
+Introduction  - Yidi
+
+Requirements
+(Functional) - Iulian
+(Non-Functional) - Ji
+
+GUI - Iulian
+
+Use case:
+- Iulian
+1.Open a new game
+2.Exit game
+
+-Yidi
+1. Answer a question
+
+Ji
+1.Play again
+2.Ready
