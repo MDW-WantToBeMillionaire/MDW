@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="GameContract" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="GameContract" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="GameContract/Imports">
+      <xsd:import namespace="GameContract" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/GameContract" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IGameplay_AnswerQuestion_InputMessage">
+    <wsdl:part name="parameters" element="tns:AnswerQuestion" />
+  </wsdl:message>
+  <wsdl:message name="IGameplay_CorrectAnswer_InputMessage">
+    <wsdl:part name="parameters" element="tns:CorrectAnswer" />
+  </wsdl:message>
+  <wsdl:message name="IGameplay_CorrectAnswer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CorrectAnswerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGameplay_CheckAnswer_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckAnswer" />
+  </wsdl:message>
+  <wsdl:message name="IGameplay_CheckAnswer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckAnswerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGameplay_GetQuestionList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetQuestionList" />
+  </wsdl:message>
+  <wsdl:message name="IGameplay_GetQuestionList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetQuestionListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGameplay_GetPlayerList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPlayerList" />
+  </wsdl:message>
+  <wsdl:message name="IGameplay_GetPlayerList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPlayerListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGameplay_CreateAPlayer_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateAPlayer" />
+  </wsdl:message>
+  <wsdl:message name="IGameplay_CreateAPlayer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateAPlayerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGameplay_GetCredit_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCredit" />
+  </wsdl:message>
+  <wsdl:message name="IGameplay_GetCredit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCreditResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGameplay_Finish_InputMessage">
+    <wsdl:part name="parameters" element="tns:Finish" />
+  </wsdl:message>
+  <wsdl:message name="IGameplay_Finish_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FinishResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGameplay_SubscribeEvent_InputMessage">
+    <wsdl:part name="parameters" element="tns:SubscribeEvent" />
+  </wsdl:message>
+  <wsdl:message name="IGameplay_SubscribeEvent_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SubscribeEventResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGameplay_UnsubscribeEvent_InputMessage">
+    <wsdl:part name="parameters" element="tns:UnsubscribeEvent" />
+  </wsdl:message>
+  <wsdl:message name="IGameplay_UnsubscribeEvent_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UnsubscribeEventResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGameplay_ShowNextQuestion_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:ShowNextQuestion" />
+  </wsdl:message>
+  <wsdl:portType name="IGameplay">
+    <wsdl:operation name="AnswerQuestion">
+      <wsdl:input wsaw:Action="GameContract/IGameplay/AnswerQuestion" message="tns:IGameplay_AnswerQuestion_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CorrectAnswer">
+      <wsdl:input wsaw:Action="GameContract/IGameplay/CorrectAnswer" message="tns:IGameplay_CorrectAnswer_InputMessage" />
+      <wsdl:output wsaw:Action="GameContract/IGameplay/CorrectAnswerResponse" message="tns:IGameplay_CorrectAnswer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckAnswer">
+      <wsdl:input wsaw:Action="GameContract/IGameplay/CheckAnswer" message="tns:IGameplay_CheckAnswer_InputMessage" />
+      <wsdl:output wsaw:Action="GameContract/IGameplay/CheckAnswerResponse" message="tns:IGameplay_CheckAnswer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetQuestionList">
+      <wsdl:input wsaw:Action="GameContract/IGameplay/GetQuestionList" message="tns:IGameplay_GetQuestionList_InputMessage" />
+      <wsdl:output wsaw:Action="GameContract/IGameplay/GetQuestionListResponse" message="tns:IGameplay_GetQuestionList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPlayerList">
+      <wsdl:input wsaw:Action="GameContract/IGameplay/GetPlayerList" message="tns:IGameplay_GetPlayerList_InputMessage" />
+      <wsdl:output wsaw:Action="GameContract/IGameplay/GetPlayerListResponse" message="tns:IGameplay_GetPlayerList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateAPlayer">
+      <wsdl:input wsaw:Action="GameContract/IGameplay/CreateAPlayer" message="tns:IGameplay_CreateAPlayer_InputMessage" />
+      <wsdl:output wsaw:Action="GameContract/IGameplay/CreateAPlayerResponse" message="tns:IGameplay_CreateAPlayer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCredit">
+      <wsdl:input wsaw:Action="GameContract/IGameplay/GetCredit" message="tns:IGameplay_GetCredit_InputMessage" />
+      <wsdl:output wsaw:Action="GameContract/IGameplay/GetCreditResponse" message="tns:IGameplay_GetCredit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Finish">
+      <wsdl:input wsaw:Action="GameContract/IGameplay/Finish" message="tns:IGameplay_Finish_InputMessage" />
+      <wsdl:output wsaw:Action="GameContract/IGameplay/FinishResponse" message="tns:IGameplay_Finish_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeEvent">
+      <wsdl:input wsaw:Action="GameContract/IGameplay/SubscribeEvent" message="tns:IGameplay_SubscribeEvent_InputMessage" />
+      <wsdl:output wsaw:Action="GameContract/IGameplay/SubscribeEventResponse" message="tns:IGameplay_SubscribeEvent_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UnsubscribeEvent">
+      <wsdl:input wsaw:Action="GameContract/IGameplay/UnsubscribeEvent" message="tns:IGameplay_UnsubscribeEvent_InputMessage" />
+      <wsdl:output wsaw:Action="GameContract/IGameplay/UnsubscribeEventResponse" message="tns:IGameplay_UnsubscribeEvent_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowNextQuestion">
+      <wsdl:output wsaw:Action="GameContract/IGameplay/ShowNextQuestion" message="tns:IGameplay_ShowNextQuestion_OutputCallbackMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>
