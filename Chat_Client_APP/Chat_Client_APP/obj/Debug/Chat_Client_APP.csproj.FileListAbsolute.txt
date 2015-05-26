@@ -1,0 +1,9 @@
+D:\KITTS\Chat_Client_APP\Chat_Client_APP\bin\Debug\Chat_Client_APP.exe.config
+D:\KITTS\Chat_Client_APP\Chat_Client_APP\bin\Debug\Chat_Client_APP.exe
+D:\KITTS\Chat_Client_APP\Chat_Client_APP\bin\Debug\Chat_Client_APP.pdb
+D:\KITTS\Chat_Client_APP\Chat_Client_APP\obj\Debug\Chat_Client_APP.csprojResolveAssemblyReference.cache
+D:\KITTS\Chat_Client_APP\Chat_Client_APP\obj\Debug\Chat_Client_APP.Form1.resources
+D:\KITTS\Chat_Client_APP\Chat_Client_APP\obj\Debug\Chat_Client_APP.Properties.Resources.resources
+D:\KITTS\Chat_Client_APP\Chat_Client_APP\obj\Debug\Chat_Client_APP.csproj.GenerateResource.Cache
+D:\KITTS\Chat_Client_APP\Chat_Client_APP\obj\Debug\Chat_Client_APP.exe
+D:\KITTS\Chat_Client_APP\Chat_Client_APP\obj\Debug\Chat_Client_APP.pdb
