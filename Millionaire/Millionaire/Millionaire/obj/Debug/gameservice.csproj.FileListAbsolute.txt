@@ -1,0 +1,12 @@
+C:\Study\MDW\Millionaire\Millionaire\Millionaire\bin\Debug\Millionaire.dll.config
+C:\Study\MDW\Millionaire\Millionaire\Millionaire\bin\Debug\Millionaire.dll
+C:\Study\MDW\Millionaire\Millionaire\Millionaire\bin\Debug\Millionaire.pdb
+C:\Study\MDW\Millionaire\Millionaire\Millionaire\obj\Debug\gameservice.csprojResolveAssemblyReference.cache
+C:\Study\MDW\Millionaire\Millionaire\Millionaire\obj\Debug\Millionaire.dll
+C:\Study\MDW\Millionaire\Millionaire\Millionaire\obj\Debug\Millionaire.pdb
+C:\Users\mm\Documents\ICT\block8\mdw\MDW\Millionaire\Millionaire\Millionaire\bin\Debug\Millionaire.dll.config
+C:\Users\mm\Documents\ICT\block8\mdw\MDW\Millionaire\Millionaire\Millionaire\bin\Debug\Millionaire.dll
+C:\Users\mm\Documents\ICT\block8\mdw\MDW\Millionaire\Millionaire\Millionaire\bin\Debug\Millionaire.pdb
+C:\Users\mm\Documents\ICT\block8\mdw\MDW\Millionaire\Millionaire\Millionaire\obj\Debug\gameservice.csprojResolveAssemblyReference.cache
+C:\Users\mm\Documents\ICT\block8\mdw\MDW\Millionaire\Millionaire\Millionaire\obj\Debug\Millionaire.dll
+C:\Users\mm\Documents\ICT\block8\mdw\MDW\Millionaire\Millionaire\Millionaire\obj\Debug\Millionaire.pdb

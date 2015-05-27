@@ -46,6 +46,9 @@ namespace userlogintest
             {
                 cn.Close();
             }
+            //Form1 fr = new Form1();
+            //fr.Show();
+            //this.Hide();
         }
 
         private void btnRef_Click(object sender, EventArgs e)
