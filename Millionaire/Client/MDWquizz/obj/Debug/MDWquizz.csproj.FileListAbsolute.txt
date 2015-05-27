@@ -19,3 +19,6 @@ C:\Study\MDW\Millionaire\Client\MDWquizz\obj\Debug\MDWquizz.Properties.Resources
 C:\Study\MDW\Millionaire\Client\MDWquizz\obj\Debug\MDWquizz.csproj.GenerateResource.Cache
 C:\Study\MDW\Millionaire\Client\MDWquizz\bin\Debug\MDWquizz.exe
 C:\Study\MDW\Millionaire\Client\MDWquizz\bin\Debug\MDWquizz.pdb
+C:\Users\mm\Documents\ICT\block8\mdw\MDW\Millionaire\Client\MDWquizz\bin\Debug\MDWquizz.exe.config
+C:\Users\mm\Documents\ICT\block8\mdw\MDW\Millionaire\Client\MDWquizz\obj\Debug\MDWquizz.exe
+C:\Users\mm\Documents\ICT\block8\mdw\MDW\Millionaire\Client\MDWquizz\obj\Debug\MDWquizz.pdb
