@@ -9,3 +9,14 @@ C:\Users\mm\Documents\Visual Studio 2012\Projects\week 4\userlogintest\userlogin
 C:\Users\mm\Documents\Visual Studio 2012\Projects\week 4\userlogintest\userlogintest\obj\Debug\userlogintest.csproj.GenerateResource.Cache
 C:\Users\mm\Documents\Visual Studio 2012\Projects\week 4\userlogintest\userlogintest\obj\Debug\userlogintest.exe
 C:\Users\mm\Documents\Visual Studio 2012\Projects\week 4\userlogintest\userlogintest\obj\Debug\userlogintest.pdb
+C:\Users\mm\Documents\ICT\block8\mdw\MDW\userlogintest\userlogintest\bin\Debug\userlogintest.exe.config
+C:\Users\mm\Documents\ICT\block8\mdw\MDW\userlogintest\userlogintest\obj\Debug\userlogintest.exe
+C:\Users\mm\Documents\ICT\block8\mdw\MDW\userlogintest\userlogintest\obj\Debug\userlogintest.pdb
+C:\Users\mm\Documents\ICT\block8\mdw\MDW\userlogintest\userlogintest\bin\Debug\Database1.mdf
+C:\Users\mm\Documents\ICT\block8\mdw\MDW\userlogintest\userlogintest\bin\Debug\Database1_log.ldf
+C:\Users\mm\Documents\ICT\block8\mdw\MDW\userlogintest\userlogintest\bin\Debug\userlogintest.exe
+C:\Users\mm\Documents\ICT\block8\mdw\MDW\userlogintest\userlogintest\bin\Debug\userlogintest.pdb
+C:\Users\mm\Documents\ICT\block8\mdw\MDW\userlogintest\userlogintest\obj\Debug\userlogintest.csprojResolveAssemblyReference.cache
+C:\Users\mm\Documents\ICT\block8\mdw\MDW\userlogintest\userlogintest\obj\Debug\userlogintest.Form1.resources
+C:\Users\mm\Documents\ICT\block8\mdw\MDW\userlogintest\userlogintest\obj\Debug\userlogintest.Properties.Resources.resources
+C:\Users\mm\Documents\ICT\block8\mdw\MDW\userlogintest\userlogintest\obj\Debug\userlogintest.csproj.GenerateResource.Cache

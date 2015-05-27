@@ -30,7 +30,7 @@ namespace userlogintest
             SqlConnection cn = new SqlConnection(global::userlogintest.Properties.Settings.Default.Database1ConnectionString);
             try
             {
-                string sql = "INSERT INTO Players(Player_Id,Player_Name) values("+txtID.Text+",'N"+txtName.Text+"')";
+                string sql = "INSERT INTO Players(Player_Id,Player_Name) values("+txtID.Text+",'"+txtName.Text+"')";
                 SqlCommand exesql = new SqlCommand(sql,cn);
                 cn.Open();
                 exesql.ExecuteNonQuery();
