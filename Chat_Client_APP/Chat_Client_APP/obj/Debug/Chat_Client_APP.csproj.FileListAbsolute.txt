@@ -7,3 +7,6 @@ D:\KITTS\Chat_Client_APP\Chat_Client_APP\obj\Debug\Chat_Client_APP.Properties.Re
 D:\KITTS\Chat_Client_APP\Chat_Client_APP\obj\Debug\Chat_Client_APP.csproj.GenerateResource.Cache
 D:\KITTS\Chat_Client_APP\Chat_Client_APP\obj\Debug\Chat_Client_APP.exe
 D:\KITTS\Chat_Client_APP\Chat_Client_APP\obj\Debug\Chat_Client_APP.pdb
+D:\FONTYS\MDW\MDW\Chat_Client_APP\Chat_Client_APP\bin\Debug\Chat_Client_APP.exe.config
+D:\FONTYS\MDW\MDW\Chat_Client_APP\Chat_Client_APP\obj\Debug\Chat_Client_APP.exe
+D:\FONTYS\MDW\MDW\Chat_Client_APP\Chat_Client_APP\obj\Debug\Chat_Client_APP.pdb
