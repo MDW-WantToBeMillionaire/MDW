@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="GameContract" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="GameContract" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="GameContract" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="GameContract" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
   <wsdl:types>
     <xsd:schema targetNamespace="GameContract/Imports">
       <xsd:import namespace="GameContract" />
@@ -64,6 +64,18 @@
   <wsdl:message name="IGameplay_UnsubscribeEvent_OutputMessage">
     <wsdl:part name="parameters" element="tns:UnsubscribeEventResponse" />
   </wsdl:message>
+  <wsdl:message name="IGameplay_AddPlayer_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddPlayer" />
+  </wsdl:message>
+  <wsdl:message name="IGameplay_AddPlayer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddPlayerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGameplay_CheckPlayer_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckPlayer" />
+  </wsdl:message>
+  <wsdl:message name="IGameplay_CheckPlayer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckPlayerResponse" />
+  </wsdl:message>
   <wsdl:message name="IGameplay_ShowNextQuestion_OutputCallbackMessage">
     <wsdl:part name="parameters" element="tns:ShowNextQuestion" />
   </wsdl:message>
@@ -106,6 +118,14 @@
     <wsdl:operation name="UnsubscribeEvent">
       <wsdl:input wsaw:Action="GameContract/IGameplay/UnsubscribeEvent" message="tns:IGameplay_UnsubscribeEvent_InputMessage" />
       <wsdl:output wsaw:Action="GameContract/IGameplay/UnsubscribeEventResponse" message="tns:IGameplay_UnsubscribeEvent_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddPlayer">
+      <wsdl:input wsaw:Action="GameContract/IGameplay/AddPlayer" message="tns:IGameplay_AddPlayer_InputMessage" />
+      <wsdl:output wsaw:Action="GameContract/IGameplay/AddPlayerResponse" message="tns:IGameplay_AddPlayer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckPlayer">
+      <wsdl:input wsaw:Action="GameContract/IGameplay/CheckPlayer" message="tns:IGameplay_CheckPlayer_InputMessage" />
+      <wsdl:output wsaw:Action="GameContract/IGameplay/CheckPlayerResponse" message="tns:IGameplay_CheckPlayer_OutputMessage" />
     </wsdl:operation>
     <wsdl:operation name="ShowNextQuestion">
       <wsdl:output wsaw:Action="GameContract/IGameplay/ShowNextQuestion" message="tns:IGameplay_ShowNextQuestion_OutputCallbackMessage" />

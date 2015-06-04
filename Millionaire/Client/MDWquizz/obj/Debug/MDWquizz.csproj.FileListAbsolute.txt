@@ -25,8 +25,6 @@ C:\Users\mm\Documents\ICT\block8\mdw\MDW\Millionaire\Client\MDWquizz\obj\Debug\M
 C:\Users\mm\Desktop\Millionaire\Client\MDWquizz\bin\Debug\MDWquizz.exe.config
 C:\Users\mm\Desktop\Millionaire\Client\MDWquizz\obj\Debug\MDWquizz.exe
 C:\Users\mm\Desktop\Millionaire\Client\MDWquizz\obj\Debug\MDWquizz.pdb
-C:\Users\mm\Desktop\Millionaire\Client\MDWquizz\bin\Debug\Database1.mdf
-C:\Users\mm\Desktop\Millionaire\Client\MDWquizz\bin\Debug\Database1_log.ldf
 C:\Users\mm\Desktop\Millionaire\Client\MDWquizz\bin\Debug\MDWquizz.exe
 C:\Users\mm\Desktop\Millionaire\Client\MDWquizz\bin\Debug\MDWquizz.pdb
 C:\Users\mm\Desktop\Millionaire\Client\MDWquizz\obj\Debug\MDWquizz.csprojResolveAssemblyReference.cache
@@ -34,3 +32,18 @@ C:\Users\mm\Desktop\Millionaire\Client\MDWquizz\obj\Debug\MDWquizz.Game.resource
 C:\Users\mm\Desktop\Millionaire\Client\MDWquizz\obj\Debug\MDWquizz.Login.resources
 C:\Users\mm\Desktop\Millionaire\Client\MDWquizz\obj\Debug\MDWquizz.Properties.Resources.resources
 C:\Users\mm\Desktop\Millionaire\Client\MDWquizz\obj\Debug\MDWquizz.csproj.GenerateResource.Cache
+C:\Users\mm\Desktop\Millionaire\Client\MDWquizz\obj\Debug\MDWquizz.Register.resources
+C:\Users\coope_000\Desktop\Millionaire\Client\MDWquizz\bin\Debug\MDWquizz.exe.config
+C:\Users\coope_000\Desktop\Millionaire\Client\MDWquizz\obj\Debug\MDWquizz.exe
+C:\Users\coope_000\Desktop\Millionaire\Client\MDWquizz\obj\Debug\MDWquizz.pdb
+C:\Users\mm\Documents\ICT\block8\mdw\Millionaire\Client\MDWquizz\bin\Debug\MDWquizz.exe.config
+C:\Users\mm\Documents\ICT\block8\mdw\Millionaire\Client\MDWquizz\obj\Debug\MDWquizz.exe
+C:\Users\mm\Documents\ICT\block8\mdw\Millionaire\Client\MDWquizz\obj\Debug\MDWquizz.pdb
+C:\Users\mm\Documents\ICT\block8\mdw\Millionaire\Client\MDWquizz\bin\Debug\MDWquizz.exe
+C:\Users\mm\Documents\ICT\block8\mdw\Millionaire\Client\MDWquizz\bin\Debug\MDWquizz.pdb
+C:\Users\mm\Documents\ICT\block8\mdw\Millionaire\Client\MDWquizz\obj\Debug\MDWquizz.csprojResolveAssemblyReference.cache
+C:\Users\mm\Documents\ICT\block8\mdw\Millionaire\Client\MDWquizz\obj\Debug\MDWquizz.Game.resources
+C:\Users\mm\Documents\ICT\block8\mdw\Millionaire\Client\MDWquizz\obj\Debug\MDWquizz.Login.resources
+C:\Users\mm\Documents\ICT\block8\mdw\Millionaire\Client\MDWquizz\obj\Debug\MDWquizz.Properties.Resources.resources
+C:\Users\mm\Documents\ICT\block8\mdw\Millionaire\Client\MDWquizz\obj\Debug\MDWquizz.Register.resources
+C:\Users\mm\Documents\ICT\block8\mdw\Millionaire\Client\MDWquizz\obj\Debug\MDWquizz.csproj.GenerateResource.Cache

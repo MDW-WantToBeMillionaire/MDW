@@ -95,12 +95,9 @@ namespace GameContract
         void SubscribeEvent();
         [OperationContract]
         void UnsubscribeEvent();
-        //Login part///////////////////////////////////////////////////////////
         [OperationContract]
-        int AddPlayer(int id, string name, string password);
-        [OperationContract]
-        bool CheckPlayer(int id, string pwd);
-        //////////////////////////////////////////////////////////////////////
+        void AddInfo(int id, string name, string password);
+  
         
     }
 

@@ -8,7 +8,7 @@ using MySql.Data.MySqlClient;
 using System.Windows.Forms;
 using System.Data;
 using System.Data.SqlClient;
-
+using Millionaire;
 
 namespace GameContract
 {
@@ -19,7 +19,8 @@ namespace GameContract
     {
         public List<Question> qList;
         public List<Question> aqList;
-        public List<Player> pList;       
+        public List<Player> pList;
+        
 
         static Action myEvent = delegate { };
 
@@ -126,33 +127,26 @@ namespace GameContract
             myEvent -= OperationContext.Current.GetCallbackChannel<IGameplayCallback>().ShowNextQuestion;
         }
 
-        //////////////////////////////////////////////Login
-        public int AddPlayer(int id, string name, string password)
+
+        public void AddInfo(int id, string name, string password)
         {
             MySqlConnection connection;
             String playerInfo = "server=athena01.fhict.local;Database=dbi270179;Uid=dbi270179;Pwd=WG7gpbOAEn;";
             connection = new MySqlConnection(playerInfo);
-            String sql = "INSERT INTO Players(player_id,player_name,password) values("+ id + ",'" + name + "'" + ",'" + password + "'" + ")";
-            MySqlCommand command = new MySqlCommand(sql, connection);
             try
             {
                 connection.Open();
-                int nrOfRecordsChanged = command.ExecuteNonQuery();
+                String sql = "INSERT INTO Players(player_id,player_name,password) values("+ id + ",'" + name + "'" + ",'" + password + "'" + ")";
+                MySqlCommand command = new MySqlCommand(sql, connection);
+                command.ExecuteNonQuery();
                 connection.Close();
-                return nrOfRecordsChanged;
             }
-            catch (Exception) 
-            {
-                return -1;
-            }finally
-            {
-                connection.Close();
-            }          
+            catch (Exception e) { MessageBox.Show(e.Message); }
         }
 
-        public bool CheckPlayer(int id,string pwd)
+        public bool LoginCheck(int id,string pwd)
         {
-            bool rowExist;
+            Player p;
             MySqlConnection connection;
             String playerInfo = "server=athena01.fhict.local;Database=dbi270179;Uid=dbi270179;Pwd=WG7gpbOAEn;";
             connection = new MySqlConnection(playerInfo);
@@ -161,21 +155,16 @@ namespace GameContract
                 connection.Open();
                 String sql = "SELECT * FROM Players WHERE player_id = @id and password = @pwd";
                 MySqlCommand command = new MySqlCommand(sql, connection);
-                command.Parameters.Add(new MySqlParameter("@id",id));
-                command.Parameters.Add(new MySqlParameter("@pwd", pwd));
-                MySqlDataReader dr = command.ExecuteReader();
-                rowExist =dr.HasRows;
-                
-            }
-            catch (Exception) 
-            { 
-                return false;
-            }
-            finally
-            {
+                command.Parameters.Add("@id",id);
+                command.Parameters.Add("@pwd",pwd);
+                SqlDataReader reader=command.ExecuteReader();
+                while(reader.Read())
+                {
+                    
+                }
                 connection.Close();
             }
-            return rowExist;
+            catch (Exception e) { MessageBox.Show(e.Message); }
         }
          
 
@@ -184,5 +173,5 @@ namespace GameContract
 
 
         
-    
+    }
 }
