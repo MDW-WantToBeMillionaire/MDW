@@ -1,0 +1,6 @@
+C:\Users\IulianToma\Desktop\WcfChat\WcfChat\bin\Debug\WcfChat.dll.config
+C:\Users\IulianToma\Desktop\WcfChat\WcfChat\bin\Debug\WcfChat.dll
+C:\Users\IulianToma\Desktop\WcfChat\WcfChat\bin\Debug\WcfChat.pdb
+C:\Users\IulianToma\Desktop\WcfChat\WcfChat\obj\Debug\WcfChat.csprojResolveAssemblyReference.cache
+C:\Users\IulianToma\Desktop\WcfChat\WcfChat\obj\Debug\WcfChat.dll
+C:\Users\IulianToma\Desktop\WcfChat\WcfChat\obj\Debug\WcfChat.pdb
