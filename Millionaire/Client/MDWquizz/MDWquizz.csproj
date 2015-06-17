@@ -100,6 +100,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Register.resx">
       <DependentUpon>Register.cs</DependentUpon>
@@ -170,6 +171,27 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1434595084_lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1434595098_users-groups.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\536602_pingvinyi_derevo_fon_8000x4488_www.Gde-Fon.com.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light-blue-background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light-blue-background-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1434595119_plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1434597861_calendar.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
